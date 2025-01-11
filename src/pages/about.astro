@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@/layouts/Base.astro";
+import { siteConfig } from "@/site.config";
 
 const meta = {
 	description: "I'm a starter theme for Astro.build",
@@ -15,15 +16,12 @@ const meta = {
 		</p>
     <p>
       Some of my interests include calisthenics, table tennis, biking, camping, backpacking, gaming,
-      guitar, beer, health. The list keeps growing as I keep exploring.
+      guitar, craft beer, health... The list keeps growing as I keep exploring.
     </p>
     <p>
-      You can view my CV <a href="/Đorđe-Andrejević-CV-Resume.pdf" download="My_CV" class="btn btn-primary">here</a> or reach out via <span id="email">email</span>.
+      You can view my CV <a href="/Đorđe-Andrejević-CV-Resume.pdf" download="My_CV" class="btn btn-primary">here</a>
+      or reach out via <a href="mailto:&#97;&#110;&#100;&#114;&#101;&#106;&#101;&#118;&#105;&#99;&#46;&#100;&#106;&#111;&#114;&#100;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">andrejevic.djordje@gmail.com</a>.
     </p>
-    <script>
-      const email = "andrejevic.djordje@gmail.com".replace("example", "example");
-      document.getElementById("email").innerHTML = `<a href="mailto:${email}">${email}</a>`;
-    </script>
     <!--TODO: contact form-->
 	</div>
 </PageLayout>
