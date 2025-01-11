@@ -1,6 +1,5 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
-import SocialList from "@/components/SocialList.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import Note from "@/components/note/Note.astro";
 import { getAllPosts } from "@/data/post";
@@ -24,11 +23,11 @@ const latestNotes = allNotes.sort(collectionDateSort).slice(0, MAX_NOTES);
 	<section>
 		<h1 class="title mb-6">Hello World!</h1>
 		<p class="mb-4">
-			Hi, I’m a theme for Astro, a simple starter that you can use to create your website or blog.
-			If you want to know more about how you can customise me, add more posts, and make it your own,
-			click on the GitHub icon link below and it will take you to my repo.
+      This is a place where I'll be writing down all the things I find interesting but haven't been asked about yet.
 		</p>
-		<SocialList />
+    <p class="mb-4">
+      I hope you enjoy it as much as I do and discover something useful here.
+    </p>
 	</section>
 	<section aria-label="Blog post list" class="mt-16">
 		<h2 class="title mb-6 text-xl text-accent"><a href="/posts/">Posts</a></h2>

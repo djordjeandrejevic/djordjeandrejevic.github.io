@@ -1,0 +1,21 @@
+---
+import PageLayout from "../../layouts/Base.astro";
+
+const meta = {
+  description: "Top 50 - A curated list of my favorites.",
+  title: "Top 50",
+};
+---
+
+<PageLayout meta={meta}>
+  <h1 class="title mb-6">Top 50</h1>
+  <div class="prose prose-sm prose-cactus max-w-none">
+    <p>Inspired by <a href="https://nirvana.fandom.com/wiki/Kurt_Cobain%27s_Top_50_Albums">Kurt Cobain's Top 50 Albums</a> list, I've decided to form my own curated list of favorites.</p>
+    <p>So, here's a collection of my personal best albums, games, and movies that shaped me as a person.</p>
+    <ul>
+      <li><a href="/top-50/albums">Top 50 Albums</a></li>
+      <li><a href="/top-50/games">Top 50 Games</a></li>
+      <li><a href="/top-50/movies-tv-shows">Top 50 Movies & TV Shows</a></li>
+    </ul>
+  </div>
+</PageLayout>
