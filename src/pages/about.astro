@@ -2,25 +2,34 @@
 import PageLayout from "@/layouts/Base.astro";
 
 const meta = {
-	description: "I'm a starter theme for Astro.build",
-	title: "About",
+  description: "I'm a starter theme for Astro.build",
+  title: "About",
 };
 ---
 
 <PageLayout meta={meta}>
-	<h1 class="title mb-6">About</h1>
-	<div class="prose prose-sm prose-cactus max-w-none">
-		<p>
-			Hi, I’m a software engineer with some hobbies sharing random thoughts.
-		</p>
+  <h1 class="title mb-6">About</h1>
+  <div class="prose prose-sm prose-cactus max-w-none">
+    <p>
+      Hi 👋, I’m a software engineer with some hobbies sharing random thoughts.
+    </p>
     <p>
       Some of my interests include guitar, gaming, hardware, calisthenics, table tennis, biking, camping, backpacking,
       beer, health... The list keeps growing as I keep exploring.
     </p>
-    <p>
-      View my resume / CV <a href="/Đorđe-Andrejević-CV-Resume.pdf" download="My_CV" class="btn btn-primary">here</a>
-      or write me <a href="mailto:&#97;&#110;&#100;&#114;&#101;&#106;&#101;&#118;&#105;&#99;&#46;&#100;&#106;&#111;&#114;&#100;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">there</a>.
-    </p>
+    <p>Links:</p>
+    <ul>
+      <li>
+        <i class="fa-solid fa-file"></i>
+        <a href="/documents/Đorđe-Andrejević-CV-Resume.pdf" download="My_CV" class="btn btn-primary">Resume / CV</a>
+      </li>
+      <li>
+        <i class="fa-solid fa-envelope"></i>
+        <a
+          href="mailto:&#97;&#110;&#100;&#114;&#101;&#106;&#101;&#118;&#105;&#99;&#46;&#100;&#106;&#111;&#114;&#100;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Email</a>
+      </li>
+    </ul>
     <!--TODO: contact form-->
-	</div>
+  </div>
 </PageLayout>
+
