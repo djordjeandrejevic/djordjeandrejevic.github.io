@@ -2,7 +2,7 @@
 title: "Top 50 lists are up!"
 description: "This post announces the Top 50 lists."
 publishDate: "18 Jan 2024"
-tags: ["top50", "movies", "music", "gaming"]
+tags: ["top50", "movies", "music", "gaming", "tvshows"]
 ---
 
 Top 50 lists are one of the reasons I wanted to create this website in the first place.
