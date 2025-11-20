@@ -13,6 +13,8 @@ But the good news is that you are the pilot.
 Anyway, I wanted to share my homelab repository that I've been working on for a while. It's a collection of
 scripts, configurations, and documentation related to my homelab setup.
 
+Hopefully it can inspire or help others who are interested in starting a new hobby or improving their existing homelab.
+
 You can find the repository on GitHub: https://github.com/djordjeandrejevic/homelab
 
 Feel free to explore the repository, and if you have any questions or suggestions, don't hesitate to reach out!
