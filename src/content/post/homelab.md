@@ -18,3 +18,5 @@ Hopefully it can inspire or help others who are interested in starting a new hob
 You can find the repository on GitHub: https://github.com/djordjeandrejevic/homelab
 
 Feel free to explore the repository, and if you have any questions or suggestions, don't hesitate to reach out!
+
+P.S. Credits to [r/selfhosted](https://www.reddit.com/r/selfhosted/) community, it's a great place to step into the rabbit hole of self-hosting.
